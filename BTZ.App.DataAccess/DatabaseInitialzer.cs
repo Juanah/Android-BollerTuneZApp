@@ -1,6 +1,7 @@
 ﻿using System;
 using SQLite;
 using System.IO;
+using BTZ.App.Data;
 
 namespace BTZ.App.DataAccess
 {
@@ -16,7 +17,7 @@ namespace BTZ.App.DataAccess
 		{
 			DB = new SQLiteConnection (Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), "aic.db"));
 
-
+			DB.CreateTable<LocalUser> ();
 		}
 
 		public static SQLiteConnection Database{ get{ return DB; } }

@@ -61,4 +61,10 @@
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BTZ.App.Data\BTZ.App.Data.csproj">
+      <Project>{44088ABD-A64D-4A97-9739-022FBA55FBDF}</Project>
+      <Name>BTZ.App.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
