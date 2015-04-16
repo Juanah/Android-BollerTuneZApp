@@ -19,6 +19,7 @@ C:\bin\Debug\BTZ.App.DataAccess.pdb
 C:\bin\Debug\BTZ.App.DataAccess.dll.mdb
 C:\bin\Debug\BTZ.App.DataAccess.apk
 C:\bin\Debug\BTZ.App.DataAccess-Signed.apk
+C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.csprojResolveAssemblyReference.cache
 C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.dll
 C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\BTZ.App.DataAccess.pdb
 C:\Git\Android-BollerTuneZApp\BTZ.App.DataAccess\obj\Debug\android\bin\BTZ.App.DataAccess.apk

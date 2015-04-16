@@ -26,6 +26,7 @@ C:\bin\Debug\BollerTuneZ.pdb
 C:\bin\Debug\BollerTuneZ.dll.mdb
 C:\bin\Debug\BollerTuneZ.BollerTuneZ.apk
 C:\bin\Debug\BollerTuneZ.BollerTuneZ-Signed.apk
+C:\Git\Android-BollerTuneZApp\obj\Debug\BollerTuneZ.csprojResolveAssemblyReference.cache
 C:\Git\Android-BollerTuneZApp\obj\Debug\BollerTuneZ.dll
 C:\Git\Android-BollerTuneZApp\obj\Debug\BollerTuneZ.pdb
 C:\Git\Android-BollerTuneZApp\obj\Debug\android\bin\BollerTuneZ.BollerTuneZ.apk

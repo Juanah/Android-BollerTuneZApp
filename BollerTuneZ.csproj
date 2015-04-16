@@ -51,7 +51,6 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Bootstrap\Bootstrapper.cs" />
-    <Compile Include="TinyIoC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -71,5 +70,27 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Bootstrap\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BTZ.App.Communication\BTZ.App.Communication.csproj">
+      <Project>{52A5DFB3-2139-4E81-A0BA-8DC842FE62C0}</Project>
+      <Name>BTZ.App.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="BTZ.App.Data\BTZ.App.Data.csproj">
+      <Project>{44088ABD-A64D-4A97-9739-022FBA55FBDF}</Project>
+      <Name>BTZ.App.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="BTZ.App.DataAccess\BTZ.App.DataAccess.csproj">
+      <Project>{5A5BF698-3E87-433D-86F1-A5D03B20F7D4}</Project>
+      <Name>BTZ.App.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="BTZ.App.Infrastructure\BTZ.App.Infrastructure.csproj">
+      <Project>{C71C0213-38C2-47A0-AD90-B9AE194A78BB}</Project>
+      <Name>BTZ.App.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="BTZ.App.Tests\BTZ.App.Tests.csproj">
+      <Project>{A9A35EAB-5B64-49B5-963D-FC404DA372F8}</Project>
+      <Name>BTZ.App.Tests</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

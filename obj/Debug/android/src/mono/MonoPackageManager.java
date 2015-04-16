@@ -68,7 +68,14 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"BollerTuneZ.dll",
+		"BTZ.App.Communication.dll",
+		"BTZ.App.Data.dll",
+		"BTZ.App.DataAccess.dll",
+		"BTZ.App.Infrastructure.dll",
+		"BTZ.App.Tests.dll",
 		"SQLite.dll",
+		"BTZ.Common.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

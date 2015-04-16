@@ -14,6 +14,16 @@ namespace BTZ.App.DataAccess
 
 		#region IPrivateRepository implementation
 
+		public void CreateUser (string name, string password)
+		{
+			FetchLocalUserUser ();
+			if (_localUser != null) {
+				DeleteLocalUser ();
+			}
+
+			DatabaseInitialzer.Database.Insert (new LocalUser (){Name = name, Password = password });
+		}
+
 		public LocalUser GetLocalUser ()
 		{
 			if (_localUser == null) {

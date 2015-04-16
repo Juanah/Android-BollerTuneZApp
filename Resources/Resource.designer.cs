@@ -26,6 +26,24 @@ namespace BollerTuneZ
 		
 		public static void UpdateIdValues()
 		{
+			global::BTZ.App.Communication.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::BTZ.App.Communication.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::BTZ.App.Communication.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::BTZ.App.Data.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::BTZ.App.Data.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::BTZ.App.Data.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::BTZ.App.DataAccess.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::BTZ.App.DataAccess.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::BTZ.App.DataAccess.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::BTZ.App.Infrastructure.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::BTZ.App.Infrastructure.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::BTZ.App.Infrastructure.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
+			global::BTZ.App.Tests.Resource.Id.test_btn_login = global::BollerTuneZ.Resource.Id.test_btn_login;
+			global::BTZ.App.Tests.Resource.Id.test_lbn_status = global::BollerTuneZ.Resource.Id.test_lbn_status;
+			global::BTZ.App.Tests.Resource.Layout.ActivityRegLoginTest = global::BollerTuneZ.Resource.Layout.ActivityRegLoginTest;
+			global::BTZ.App.Tests.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
+			global::BTZ.App.Tests.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
+			global::BTZ.App.Tests.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
 			global::SQLite.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::SQLite.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 		}
@@ -62,8 +80,14 @@ namespace BollerTuneZ
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int myButton = 2131034114;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int test_btn_login = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int test_lbn_status = 2131034113;
 			
 			static Id()
 			{
@@ -79,7 +103,10 @@ namespace BollerTuneZ
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int ActivityRegLoginTest = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -100,11 +127,14 @@ namespace BollerTuneZ
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
+			// aapt resource value: 0x7f040004
+			public const int app_name = 2130968580;
+			
 			// aapt resource value: 0x7f040003
-			public const int app_name = 2130968579;
+			public const int hello = 2130968579;
 			
 			// aapt resource value: 0x7f040002
-			public const int hello = 2130968578;
+			public const int library_name = 2130968578;
 			
 			static String()
 			{

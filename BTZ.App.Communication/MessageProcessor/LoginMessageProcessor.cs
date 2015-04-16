@@ -14,7 +14,7 @@ namespace BTZ.App.Communication
 	public class LoginMessageProcessor : ILoginMessageProcessor
 	{
 		#region WebUri
-		const string BaseUri = "http://localhost:56534/btz";
+		const string BaseUri = "http://192.168.2.101:56534/btz";
 		const string LoginUri = "/login/";
 		const string RegUri = "/reg/";
 

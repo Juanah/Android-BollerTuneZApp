@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("BTZ.App.Communication.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("BTZ.App.Tests.Resource", IsApplication=false)]
 
-namespace BTZ.App.Communication
+namespace BTZ.App.Tests
 {
 	
 	
@@ -37,17 +37,52 @@ namespace BTZ.App.Communication
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040000
+			public static int test_btn_login = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public static int test_lbn_status = 2130968577;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f020000
+			public static int ActivityRegLoginTest = 2130837504;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f020001
-			public static int ApplicationName = 2130837505;
+			// aapt resource value: 0x7f030001
+			public static int ApplicationName = 2130903041;
 			
-			// aapt resource value: 0x7f020000
-			public static int Hello = 2130837504;
+			// aapt resource value: 0x7f030000
+			public static int Hello = 2130903040;
 			
-			// aapt resource value: 0x7f020002
-			public static int library_name = 2130837506;
+			// aapt resource value: 0x7f030002
+			public static int library_name = 2130903042;
 			
 			static String()
 			{

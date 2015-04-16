@@ -14,6 +14,8 @@ namespace BTZ.App.Infrastructure
 		/// <returns>The local user.</returns>
 		LocalUser GetLocalUser();
 
+		void CreateUser(string name,string password);
+
 		void UpdateLocalUser(LocalUser localUser);
 
 		void DeleteLocalUser();
