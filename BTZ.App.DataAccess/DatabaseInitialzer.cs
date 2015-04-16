@@ -15,7 +15,7 @@ namespace BTZ.App.DataAccess
 
 		static DatabaseInitialzer ()
 		{
-			DB = new SQLiteConnection (Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), "aic.db"));
+			DB = new SQLiteConnection (Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), "btz.db"));
 
 			DB.CreateTable<LocalUser> ();
 		}

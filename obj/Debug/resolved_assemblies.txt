@@ -1,2 +1,2 @@
-C:\Git\Android-BollerTuneZApp\bin\Debug\BollerTuneZ.dll
-C:\Git\Android-BollerTuneZApp\BollerTuneZ\Components\sqlite-net-1.0.8.3\lib\android\SQLite.dll
+C:\bin\Debug\BollerTuneZ.dll
+C:\Git\Android-BollerTuneZApp\Components\sqlite-net-1.0.8.3\lib\android\SQLite.dll

@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="BollerTuneZ.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BTZ.App.DataAccess\DatabaseInitialzer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs">
     <Files>
-      <File FileName="BTZ.App.DataAccess\DatabaseInitialzer.cs" Line="19" Column="4" />
+      <File FileName="BTZ.App.Infrastructure\Communication\MessageProcessor\ILoginMessageProcessor.cs" Line="10" Column="3" />
+      <File FileName="BTZ.App.Data\Private\LocalUser.cs" Line="16" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
