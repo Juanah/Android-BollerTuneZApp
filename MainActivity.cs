@@ -5,7 +5,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using BTZ.App.Tests;
 
 namespace BollerTuneZ
 {
@@ -16,7 +15,7 @@ namespace BollerTuneZ
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
+			Bootstrapper.Register ();
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 

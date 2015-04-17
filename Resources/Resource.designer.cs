@@ -38,12 +38,6 @@ namespace BollerTuneZ
 			global::BTZ.App.Infrastructure.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::BTZ.App.Infrastructure.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 			global::BTZ.App.Infrastructure.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
-			global::BTZ.App.Tests.Resource.Id.test_btn_login = global::BollerTuneZ.Resource.Id.test_btn_login;
-			global::BTZ.App.Tests.Resource.Id.test_lbn_status = global::BollerTuneZ.Resource.Id.test_lbn_status;
-			global::BTZ.App.Tests.Resource.Layout.ActivityRegLoginTest = global::BollerTuneZ.Resource.Layout.ActivityRegLoginTest;
-			global::BTZ.App.Tests.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
-			global::BTZ.App.Tests.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
-			global::BTZ.App.Tests.Resource.String.library_name = global::BollerTuneZ.Resource.String.library_name;
 			global::SQLite.Resource.String.ApplicationName = global::BollerTuneZ.Resource.String.ApplicationName;
 			global::SQLite.Resource.String.Hello = global::BollerTuneZ.Resource.String.Hello;
 		}
@@ -84,7 +78,7 @@ namespace BollerTuneZ
 			public const int myButton = 2131034114;
 			
 			// aapt resource value: 0x7f050000
-			public const int test_btn_login = 2131034112;
+			public const int test_btn_reg = 2131034112;
 			
 			// aapt resource value: 0x7f050001
 			public const int test_lbn_status = 2131034113;
@@ -103,7 +97,7 @@ namespace BollerTuneZ
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ActivityRegLoginTest = 2130903040;
+			public const int ActivtyTest = 2130903040;
 			
 			// aapt resource value: 0x7f030001
 			public const int Main = 2130903041;

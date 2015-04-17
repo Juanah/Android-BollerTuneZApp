@@ -14,6 +14,8 @@ namespace BollerTuneZ
 		{
 			TinyIoCContainer.Current.Register<IPrivateRepository,PrivateRepository> ();
 			TinyIoCContainer.Current.Register<IHttpPostProcessor,HttpPostProcessor> ();
+			TinyIoCContainer.Current.Register<ILoginMessageProcessor,LoginMessageProcessor> ();
+
 		}
 
 	}

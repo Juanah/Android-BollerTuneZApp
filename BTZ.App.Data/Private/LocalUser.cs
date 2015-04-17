@@ -3,7 +3,7 @@ using SQLite;
 namespace BTZ.App.Data
 {
 	[Table("LocalUser")]
-	public class LocalUser
+	public class LocalUser : BaseEntity
 	{
 		public LocalUser ()
 		{

@@ -1,2 +1,2 @@
 BollerTuneZ.MainActivity;bollertunez.MainActivity
-BTZ.App.Tests.ActivityRegLoginTest;btz.app.tests.ActivityRegLoginTest
+BollerTuneZ.ActivityRegLoginTest;bollertunez.ActivityRegLoginTest

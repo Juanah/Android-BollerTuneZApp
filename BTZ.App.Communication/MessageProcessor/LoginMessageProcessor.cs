@@ -14,7 +14,7 @@ namespace BTZ.App.Communication
 	public class LoginMessageProcessor : ILoginMessageProcessor
 	{
 		#region WebUri
-		const string BaseUri = "http://192.168.2.101:56534/btz";
+		const string BaseUri = "http://192.168.1.3:56534/btz";
 		const string LoginUri = "/login/";
 		const string RegUri = "/reg/";
 
@@ -36,7 +36,7 @@ namespace BTZ.App.Communication
 		public void UserLogin ()
 		{
 			new Thread (() => {
-				string uri = String.Format(BaseUri + LoginUri + "{0}","");
+				string uri = String.Format(BaseUri + LoginUri + "{0}","1234");
 
 				LocalUser user = _privateRepo.GetLocalUser();
 
@@ -80,7 +80,7 @@ namespace BTZ.App.Communication
 
 		public void RegisterUser ()
 		{
-			string uri = String.Format(BaseUri + RegUri + "{0}","");
+			string uri = String.Format(BaseUri + RegUri + "{0}","123");
 
 			LocalUser user = _privateRepo.GetLocalUser();
 

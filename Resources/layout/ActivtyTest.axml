@@ -7,9 +7,10 @@
         android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/test_btn_login" />
+        android:id="@+id/test_btn_reg" />
     <TextView
-        android:text="Text"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/test_lbn_status" />

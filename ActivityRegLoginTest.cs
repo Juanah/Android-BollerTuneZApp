@@ -14,7 +14,7 @@ using BTZ.App.Infrastructure;
 using TinyIoC;
 
 
-namespace BTZ.App.Tests
+namespace BollerTuneZ
 {
 	[Activity (Label = "ActivityRegLoginTest")]			
 	public class ActivityRegLoginTest : Activity
@@ -28,15 +28,16 @@ namespace BTZ.App.Tests
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-			SetContentView (Resource.Layout.ActivityRegLoginTest);
+			SetContentView (Resource.Layout.ActivtyTest);
+			Initialize ();
 		}
 
 		void Initialize()
 		{
 			lbn_status = FindViewById<TextView> (Resource.Id.test_lbn_status);
-			btn_reg = FindViewById<Button> (Resource.Id.test_btn_login);
+			btn_reg = FindViewById<Button> (Resource.Id.test_btn_reg);
 
-			btn_reg.Click += (object sender, EventArgs e) => _loginMessageProcessor.UserLogin ();
+			btn_reg.Click += (object sender, EventArgs e) => _loginMessageProcessor.RegisterUser ();
 
 			_pRepo = TinyIoCContainer.Current.Resolve<IPrivateRepository> ();
 			_loginMessageProcessor = TinyIoCContainer.Current.Resolve<ILoginMessageProcessor> ();

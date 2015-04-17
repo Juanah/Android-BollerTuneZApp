@@ -37,5 +37,6 @@ C:\Git\Android-BollerTuneZApp\obj\Debug\res\drawable-mdpi\icon.png
 C:\Git\Android-BollerTuneZApp\obj\Debug\res\drawable-xhdpi\icon.png
 C:\Git\Android-BollerTuneZApp\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Git\Android-BollerTuneZApp\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Git\Android-BollerTuneZApp\obj\Debug\res\layout\activtytest.xml
 C:\Git\Android-BollerTuneZApp\obj\Debug\R.cs.flag
 C:\Git\Android-BollerTuneZApp\obj\Debug\uploadflags.txt

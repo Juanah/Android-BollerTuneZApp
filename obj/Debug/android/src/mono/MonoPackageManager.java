@@ -72,7 +72,6 @@ class MonoPackageManager_Resources {
 		"BTZ.App.Data.dll",
 		"BTZ.App.DataAccess.dll",
 		"BTZ.App.Infrastructure.dll",
-		"BTZ.App.Tests.dll",
 		"SQLite.dll",
 		"BTZ.Common.dll",
 		"Newtonsoft.Json.dll",
