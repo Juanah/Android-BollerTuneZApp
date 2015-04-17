@@ -39,7 +39,7 @@ namespace BTZ.App.Communication
 			}
 
 			dataStream.Write (postBytes, 0, postBytes.Length);
-			dataStream.Close ();
+			//dataStream.Close ();
 
 			WebResponse response = null;
 
